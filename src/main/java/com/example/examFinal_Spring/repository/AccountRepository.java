@@ -2,15 +2,14 @@ package com.example.examFinal_Spring.repository;
 
 import com.example.examFinal_Spring.model.Account;
 import com.example.examFinal_Spring.model.AccountType;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
-@Service
+@Repository
 public class AccountRepository {
     private final DatabaseConnection databaseConnection = new DatabaseConnection();
     
