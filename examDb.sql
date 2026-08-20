@@ -1,0 +1,1 @@
+CREATE DATABASE exam_poo_bd WITH  OWNER 'postgres';
